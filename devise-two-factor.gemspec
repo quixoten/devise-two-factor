@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency 'railties',       '>= 7.0', '< 8.1'
   s.add_runtime_dependency 'activesupport',  '>= 7.0', '< 8.1'
-  s.add_runtime_dependency 'devise',         '>= 5.0'
+  s.add_runtime_dependency 'devise'
   s.add_runtime_dependency 'rotp',           '~> 6.0'
 
   s.add_development_dependency 'activemodel'
